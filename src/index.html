@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,12 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -32,19 +35,13 @@
 
                 <div class="promo__icons">
                     <div class="promo__icon">
-                        <img src="icons/main_screen/timer.png" alt="timer">
-                        Время подбора:
-                        10 минут
+                        <img src="icons/main_screen/timer.png" alt="timer"> Время подбора: 10 минут
                     </div>
                     <div class="promo__icon">
-                        <img src="icons/main_screen/hand-cart.png" alt="hand-cart">
-                        Бесплатная
-                        доставка
+                        <img src="icons/main_screen/hand-cart.png" alt="hand-cart"> Бесплатная доставка
                     </div>
                     <div class="promo__icon">
-                        <img src="icons/main_screen/messages.png" alt="messages">
-                        Ответим
-                        на все вопросы
+                        <img src="icons/main_screen/messages.png" alt="messages"> Ответим на все вопросы
                     </div>
                 </div>
 
@@ -54,11 +51,11 @@
                     <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
                 </div>
             </div>
-            
-        </div>
-    </div>
 
-    <div class="advantages">
+        </div>
+    </section>
+
+    <section class="advantages">
         <div class="container">
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__wrapper">
@@ -68,8 +65,7 @@
                         Делимся опытом
                     </div>
                     <div class="advantages__descr">
-                        Наши сотрудники всегда готовы поделиться своим опытом, 
-                        так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
+                        Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
                     </div>
                 </div>
                 <div class="advantages__item">
@@ -78,8 +74,7 @@
                         Заботимся о здоровье
                     </div>
                     <div class="advantages__descr">
-                        Мы работаем для того, 
-                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!           
+                        Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
                     </div>
                 </div>
                 <div class="advantages__item">
@@ -88,14 +83,52 @@
                         Учим бегать
                     </div>
                     <div class="advantages__descr">
-                        Помогаем с обучением 
-                        правильной технике бега!<br>
-                        Дружим с крупнейшей школой бега в России - 
+                        Помогаем с обучением правильной технике бега!<br> Дружим с крупнейшей школой бега в России -
                         <a href="#">I LOVE RUNNING.</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                Получите бесплатную консультацию<br> по подбору пульсометра
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки<br> и мы перезвоним вам в течении 10 минут
+            </div>
+            <form class="feed-form" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="email" required placeholder="Ваш E-mail" type="email">
+
+                <button class="button button_submit">заказать консультацию</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/slide_1.jpg" alt="slide">
+                </div>
+                <div>
+                    <img src="img/slide_2.jpg" alt="slide">
+                </div>
+                <div>
+                    <img src="img/slide_3.jpg" alt="slide">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
